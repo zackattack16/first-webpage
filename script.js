@@ -15,6 +15,9 @@ const box2 = document.getElementById("box2")
 box2.addEventListener("click", reset);
 
 function reset() {
-    box.style.backgroundColor = `rgb(255,0,0)`;
+    const R = (255)
+    const G = (0)
+    const B = (0)
+    box.style.backgroundColor = `rgb(${R},${G},${B})`;
 
 }
