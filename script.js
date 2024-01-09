@@ -9,3 +9,6 @@ function changeColor() {
 
     box.style.backgroundColor = `rgb(${R},${G},${B})`;
 }
+
+const box2 = document.getElementById("box2")
+
